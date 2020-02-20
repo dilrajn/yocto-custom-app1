@@ -1,0 +1,10 @@
+--- test.cpp	2020-02-05 11:57:08.300456000 +0530
++++ test-patch.cpp	2020-02-20 11:18:36.635790163 +0530
+@@ -2,6 +2,6 @@
+ #include <iostream>
+ using namespace std;
+ int main(void) {
+-    cout << "Hello World from remote repo" << endl;
++    cout << "Hello World from remote repo -Patched " << endl;
+     return(0);
+ }
